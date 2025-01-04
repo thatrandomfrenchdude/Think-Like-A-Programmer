@@ -1,0 +1,5 @@
+# ignore __pycache__ directories
+__pycache__/
+
+# ignore nested __pycache__ directories
+**/__pycache__/
