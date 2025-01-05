@@ -1,6 +1,9 @@
-# Think Like A Programmer Lesson Plan
+# Think Like A Programmer Workshop
 
-This repository contains the lesson plan for my "Think Like A Programmer" workshop for beginner python programmers. The workshop is designed to introduce students to the fundamentals of programming and help them build their first program.
+**Speaker:** Nick Debeure<br>
+**Date:** 2025-01-07
+
+This repository contains the lesson plan for my "Think Like A Programmer" workshop for 6th grade students. The students are beginner python programmers. The workshop is designed to introduce students to the fundamentals of programming and help them build their first program.
 
 ## Directory Structure
 
