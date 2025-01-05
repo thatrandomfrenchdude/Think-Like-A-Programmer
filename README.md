@@ -7,12 +7,12 @@ This repository contains the lesson plan for my "Think Like A Programmer" worksh
 ```
 README.md
 lesson/
-    README.md --- this file contains the lesson plan
+    README.md                       # this file contains the lesson plan
 ppt/
-    Think_Like_A_Programmer.pptx --- the presentation slides
-    Think_Like_A_Programmer.pdf --- the presentation slides in pdf format
+    Think_Like_A_Programmer.pptx    # the presentation slides
+    Think_Like_A_Programmer.pdf     # the presentation slides in pdf format
 src/
-    car.py --- the source code for the car class
-    hello_world.py --- the source code for the hello world program
-    tic-tac-toe.py --- the source code for the tic-tac-toe game
+    car.py                          # the source code for the car class
+    hello_world.py                  # the source code for the hello world program
+    tic-tac-toe.py                  # the source code for the tic-tac-toe game
 ```
