@@ -1,24 +1,10 @@
 class Car:
-    '''
-    Car class
-    
-    Attributes:
-        engine (Engine): Engine object
-        pedals (Pedals): Pedals object
-        steering_wheel (SteeringWheel): SteeringWheel object
-    '''
     def __init__(self):
-        self.engine: Engine = Engine()
-        self.pedals: Pedals = Pedals()
-        self.steering_wheel: SteeringWheel = SteeringWheel()
+        self.engine = Engine()
+        self.pedals = Pedals()
+        self.steering_wheel = SteeringWheel()
 
 class Engine:
-    '''
-    Engine class
-    
-    Attributes:
-        is_running (bool): Engine status
-    '''
     def __init__(self):
         self.is_running: bool = False
     
@@ -29,13 +15,6 @@ class Engine:
         self.is_running = False
 
 class Pedals:
-    '''
-    Pedals class
-    
-    Attributes:
-        go (bool): Gas pedal status
-        brake (bool): Brake pedal status
-    '''
     def __init__(self):
         self.go: bool = False
         self.brake: bool = True
@@ -49,12 +28,6 @@ class Pedals:
         self.brake = True
 
 class SteeringWheel:
-    '''
-    SteeringWheel class
-
-    Attributes:
-        direction (str): Steering direction
-    '''
     def __init__(self):
         self.direction = 'straight'
     
@@ -63,3 +36,4 @@ class SteeringWheel:
     
     def turn_right(self):
         self.direction = 'right'
+
